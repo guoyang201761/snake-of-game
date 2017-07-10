@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="div_logo">
+				<!--<img class="logo1" src="img/snake_img.png" />-->
+				<img class="logo2" src="img/logo_snake.png" />
+			</div>
+			<canvas id="gameView" height="500" width="500"></canvas>
+			<div class="gameo">
+				<img src="img/gameover.png" />
+				<p class="score_p"></p>
+			</div>
+			<div class="btns">
+				<button id="start">开始游戏</button>
+				<button id="Lv">选择关卡</button>
+				<button id="other">选择样式</button>
+			</div>
+			<div class="btns2">
+				<button id="lev1">难度-1</button>
+				<button id="lev2">难度-2</button>
+				<button id="lev3">难度-3</button>
+			</div>
+			<div class="bgType">
+				<div id="bg01"></div>
+				<div id="bg02"></div>
+				<div id="bg03"></div>
+			</div>
+			<div class="music"></div>
+<!--			<div id="down"></div>-->
+			<div id="user">
+				<!--<div class="lv">
+					<p>等级&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LV1</p>
+				</div>-->
+
+				<div class="score">
+					<p>分数:&nbsp;&nbsp;</p><p id="scoreBoard"></p>
+				</div>
+				<!--<div class="money">
+					<img class="money_img" src="img/money.png" />
+					<p>金币:&nbsp;12345</p>
+					<a class="chongzhi">充值</a>
+				</div>-->
+			</div>
+			<div class="prop">
+				<div class="p_inner"></div>
+			</div>
+			<div class="author">
+				<h1><span>郭汉洋</span></h1>
+				
+			</div>
+			</div>
+				<audio src="css/start.mp3" id="sMusic1"></audio>
+				<audio src="css/gameover.mp3" id="sMusic2"></audio>
+				<audio src="" autoplay="autoplay" id="sMusic3"></audio>
+	</body>
+	<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/snake.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
